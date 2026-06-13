@@ -1,1 +1,58 @@
 
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #1e1e2f;
+    color: white;
+    padding: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    background: url('../images/hero.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* DATE BOX */
+.date-box {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+/* CONTENT */
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
