@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book a Vehicle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<!-- NAVIGATION -->
+<div class="navbar">
+    <h2 class="logo">🚗 GoBuddy LK</h2>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="vehicles.html">Vehicles</a></li>
+        <li><a href="booking.html">Book Now</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</div>
+
+<!-- TITLE -->
+<div class="page-title">
+    <h1>Book Your Ride</h1>
+    <p>Fill the form below to reserve your vehicle 🇱🇰</p>
+</div>
+
+<!-- BOOKING FORM -->
+<div class="form-container">
+
+    <form onsubmit="return validateForm()">
+
+        <label>Full Name</label>
+        <input type="text" id="name">
+
+        <label>Phone Number</label>
+        <input type="text" id="phone">
+
+        <label>Pickup Location</label>
+        <input type="text" id="pickup">
+
+        <label>Drop Location</label>
+        <input type="text" id="drop">
+
+        <label>Vehicle Type</label>
+        <select id="vehicle">
+            <option value="">Select Vehicle</option>
+            <option>Bikes</option>
+            <option>Cars</option>
+            <option>Vans</option>
+            <option>Tuk-Tuk</option>
+        </select>
+
+        <label>Date</label>
+        <input type="date" id="date">
+
+        <label>Time</label>
+        <input type="time" id="time">
+
+        <button type="submit">Book Now</button>
+
+        <p id="error" style="color:red;"></p>
+
+    </form>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>© 2026 GoBuddy LK</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
